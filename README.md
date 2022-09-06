@@ -9,6 +9,18 @@ npm install
 ```
 npm run serve
 ```
+Button
+передаваемые пропсы:
+msg - текст внутри кнопки;
+isDisabled (true/false) - для активации disable;
+typeOfButton ('primary', 'outline', 'link', 'normalWithIcon') - строка для определения типа кнопки;
+
+Input
+передаваемые пропсы:
+msg - строка для подписи над инпуто;
+isDisabled (true/false) - для определния disable;
+isLocked (true/false) - для определия readonly состояния;
+typeOfInput('textBox') - задает тип инпута
 
 ### Compiles and minifies for production
 ```
