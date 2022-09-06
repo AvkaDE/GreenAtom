@@ -21,7 +21,7 @@ msg - строка для подписи над инпуто;
 isDisabled (true/false) - для определния disable;
 isLocked (true/false) - для определия readonly состояния;
 typeOfInput('textBox') - задает тип инпута
-
+`для проверки инпута на ошибку строка 'Smth'`
 ### Compiles and minifies for production
 ```
 npm run build
